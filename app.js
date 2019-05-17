@@ -1,5 +1,5 @@
 var scores, roundScore, activePlayer, gamePlaying, winScore;
-winScore = 20;
+winScore = 100;
 init();
 
 
@@ -87,7 +87,7 @@ function init() {
     activePlayer = 0;
     roundScore = 0;
     gamePlaying = true;
-    winScore = 20;
+    winScore = 100;
     
     document.querySelector('.dice').style.display = 'none';
     document.querySelector('.dice2').style.display = 'none';
